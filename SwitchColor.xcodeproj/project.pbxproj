@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB01BD2B1A2EEDFD00B70C00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB01BD2A1A2EEDFD00B70C00 /* Foundation.framework */; };
+		CB01BD2D1A2EEDFD00B70C00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB01BD2C1A2EEDFD00B70C00 /* CoreGraphics.framework */; };
+		CB01BD2F1A2EEDFD00B70C00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB01BD2E1A2EEDFD00B70C00 /* UIKit.framework */; };
+		CB01BD351A2EEDFD00B70C00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB01BD331A2EEDFD00B70C00 /* InfoPlist.strings */; };
+		CB01BD371A2EEDFD00B70C00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01BD361A2EEDFD00B70C00 /* main.m */; };
+		CB01BD3B1A2EEDFD00B70C00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01BD3A1A2EEDFD00B70C00 /* AppDelegate.m */; };
+		CB01BD3E1A2EEDFD00B70C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB01BD3C1A2EEDFD00B70C00 /* Main.storyboard */; };
+		CB01BD411A2EEDFD00B70C00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01BD401A2EEDFD00B70C00 /* ViewController.m */; };
+		CB01BD431A2EEDFD00B70C00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB01BD421A2EEDFD00B70C00 /* Images.xcassets */; };
+		CB01BD4A1A2EEDFD00B70C00 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB01BD491A2EEDFD00B70C00 /* XCTest.framework */; };
+		CB01BD4B1A2EEDFD00B70C00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB01BD2A1A2EEDFD00B70C00 /* Foundation.framework */; };
+		CB01BD4C1A2EEDFD00B70C00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB01BD2E1A2EEDFD00B70C00 /* UIKit.framework */; };
+		CB01BD541A2EEDFD00B70C00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB01BD521A2EEDFD00B70C00 /* InfoPlist.strings */; };
+		CB01BD561A2EEDFD00B70C00 /* SwitchColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01BD551A2EEDFD00B70C00 /* SwitchColorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB01BD4D1A2EEDFD00B70C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB01BD1F1A2EEDFD00B70C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB01BD261A2EEDFD00B70C00;
+			remoteInfo = SwitchColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB01BD271A2EEDFD00B70C00 /* SwitchColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB01BD2A1A2EEDFD00B70C00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB01BD2C1A2EEDFD00B70C00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB01BD2E1A2EEDFD00B70C00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB01BD321A2EEDFD00B70C00 /* SwitchColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchColor-Info.plist"; sourceTree = "<group>"; };
+		CB01BD341A2EEDFD00B70C00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB01BD361A2EEDFD00B70C00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB01BD381A2EEDFD00B70C00 /* SwitchColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchColor-Prefix.pch"; sourceTree = "<group>"; };
+		CB01BD391A2EEDFD00B70C00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB01BD3A1A2EEDFD00B70C00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB01BD3D1A2EEDFD00B70C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB01BD3F1A2EEDFD00B70C00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB01BD401A2EEDFD00B70C00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB01BD421A2EEDFD00B70C00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB01BD481A2EEDFD00B70C00 /* SwitchColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB01BD491A2EEDFD00B70C00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB01BD511A2EEDFD00B70C00 /* SwitchColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchColorTests-Info.plist"; sourceTree = "<group>"; };
+		CB01BD531A2EEDFD00B70C00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB01BD551A2EEDFD00B70C00 /* SwitchColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchColorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB01BD241A2EEDFD00B70C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01BD2D1A2EEDFD00B70C00 /* CoreGraphics.framework in Frameworks */,
+				CB01BD2F1A2EEDFD00B70C00 /* UIKit.framework in Frameworks */,
+				CB01BD2B1A2EEDFD00B70C00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB01BD451A2EEDFD00B70C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01BD4A1A2EEDFD00B70C00 /* XCTest.framework in Frameworks */,
+				CB01BD4C1A2EEDFD00B70C00 /* UIKit.framework in Frameworks */,
+				CB01BD4B1A2EEDFD00B70C00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB01BD1E1A2EEDFD00B70C00 = {
+			isa = PBXGroup;
+			children = (
+				CB01BD301A2EEDFD00B70C00 /* SwitchColor */,
+				CB01BD4F1A2EEDFD00B70C00 /* SwitchColorTests */,
+				CB01BD291A2EEDFD00B70C00 /* Frameworks */,
+				CB01BD281A2EEDFD00B70C00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB01BD281A2EEDFD00B70C00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB01BD271A2EEDFD00B70C00 /* SwitchColor.app */,
+				CB01BD481A2EEDFD00B70C00 /* SwitchColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB01BD291A2EEDFD00B70C00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB01BD2A1A2EEDFD00B70C00 /* Foundation.framework */,
+				CB01BD2C1A2EEDFD00B70C00 /* CoreGraphics.framework */,
+				CB01BD2E1A2EEDFD00B70C00 /* UIKit.framework */,
+				CB01BD491A2EEDFD00B70C00 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB01BD301A2EEDFD00B70C00 /* SwitchColor */ = {
+			isa = PBXGroup;
+			children = (
+				CB01BD391A2EEDFD00B70C00 /* AppDelegate.h */,
+				CB01BD3A1A2EEDFD00B70C00 /* AppDelegate.m */,
+				CB01BD3C1A2EEDFD00B70C00 /* Main.storyboard */,
+				CB01BD3F1A2EEDFD00B70C00 /* ViewController.h */,
+				CB01BD401A2EEDFD00B70C00 /* ViewController.m */,
+				CB01BD421A2EEDFD00B70C00 /* Images.xcassets */,
+				CB01BD311A2EEDFD00B70C00 /* Supporting Files */,
+			);
+			path = SwitchColor;
+			sourceTree = "<group>";
+		};
+		CB01BD311A2EEDFD00B70C00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB01BD321A2EEDFD00B70C00 /* SwitchColor-Info.plist */,
+				CB01BD331A2EEDFD00B70C00 /* InfoPlist.strings */,
+				CB01BD361A2EEDFD00B70C00 /* main.m */,
+				CB01BD381A2EEDFD00B70C00 /* SwitchColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB01BD4F1A2EEDFD00B70C00 /* SwitchColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB01BD551A2EEDFD00B70C00 /* SwitchColorTests.m */,
+				CB01BD501A2EEDFD00B70C00 /* Supporting Files */,
+			);
+			path = SwitchColorTests;
+			sourceTree = "<group>";
+		};
+		CB01BD501A2EEDFD00B70C00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB01BD511A2EEDFD00B70C00 /* SwitchColorTests-Info.plist */,
+				CB01BD521A2EEDFD00B70C00 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB01BD261A2EEDFD00B70C00 /* SwitchColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB01BD591A2EEDFD00B70C00 /* Build configuration list for PBXNativeTarget "SwitchColor" */;
+			buildPhases = (
+				CB01BD231A2EEDFD00B70C00 /* Sources */,
+				CB01BD241A2EEDFD00B70C00 /* Frameworks */,
+				CB01BD251A2EEDFD00B70C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchColor;
+			productName = SwitchColor;
+			productReference = CB01BD271A2EEDFD00B70C00 /* SwitchColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB01BD471A2EEDFD00B70C00 /* SwitchColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB01BD5C1A2EEDFD00B70C00 /* Build configuration list for PBXNativeTarget "SwitchColorTests" */;
+			buildPhases = (
+				CB01BD441A2EEDFD00B70C00 /* Sources */,
+				CB01BD451A2EEDFD00B70C00 /* Frameworks */,
+				CB01BD461A2EEDFD00B70C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB01BD4E1A2EEDFD00B70C00 /* PBXTargetDependency */,
+			);
+			name = SwitchColorTests;
+			productName = SwitchColorTests;
+			productReference = CB01BD481A2EEDFD00B70C00 /* SwitchColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB01BD1F1A2EEDFD00B70C00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					CB01BD471A2EEDFD00B70C00 = {
+						TestTargetID = CB01BD261A2EEDFD00B70C00;
+					};
+				};
+			};
+			buildConfigurationList = CB01BD221A2EEDFD00B70C00 /* Build configuration list for PBXProject "SwitchColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB01BD1E1A2EEDFD00B70C00;
+			productRefGroup = CB01BD281A2EEDFD00B70C00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB01BD261A2EEDFD00B70C00 /* SwitchColor */,
+				CB01BD471A2EEDFD00B70C00 /* SwitchColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB01BD251A2EEDFD00B70C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01BD431A2EEDFD00B70C00 /* Images.xcassets in Resources */,
+				CB01BD351A2EEDFD00B70C00 /* InfoPlist.strings in Resources */,
+				CB01BD3E1A2EEDFD00B70C00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB01BD461A2EEDFD00B70C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01BD541A2EEDFD00B70C00 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB01BD231A2EEDFD00B70C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01BD411A2EEDFD00B70C00 /* ViewController.m in Sources */,
+				CB01BD3B1A2EEDFD00B70C00 /* AppDelegate.m in Sources */,
+				CB01BD371A2EEDFD00B70C00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB01BD441A2EEDFD00B70C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01BD561A2EEDFD00B70C00 /* SwitchColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB01BD4E1A2EEDFD00B70C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB01BD261A2EEDFD00B70C00 /* SwitchColor */;
+			targetProxy = CB01BD4D1A2EEDFD00B70C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB01BD331A2EEDFD00B70C00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB01BD341A2EEDFD00B70C00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB01BD3C1A2EEDFD00B70C00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB01BD3D1A2EEDFD00B70C00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB01BD521A2EEDFD00B70C00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB01BD531A2EEDFD00B70C00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB01BD571A2EEDFD00B70C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB01BD581A2EEDFD00B70C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB01BD5A1A2EEDFD00B70C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchColor/SwitchColor-Prefix.pch";
+				INFOPLIST_FILE = "SwitchColor/SwitchColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB01BD5B1A2EEDFD00B70C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchColor/SwitchColor-Prefix.pch";
+				INFOPLIST_FILE = "SwitchColor/SwitchColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB01BD5D1A2EEDFD00B70C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchColor.app/SwitchColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchColor/SwitchColor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwitchColorTests/SwitchColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB01BD5E1A2EEDFD00B70C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchColor.app/SwitchColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchColor/SwitchColor-Prefix.pch";
+				INFOPLIST_FILE = "SwitchColorTests/SwitchColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB01BD221A2EEDFD00B70C00 /* Build configuration list for PBXProject "SwitchColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB01BD571A2EEDFD00B70C00 /* Debug */,
+				CB01BD581A2EEDFD00B70C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB01BD591A2EEDFD00B70C00 /* Build configuration list for PBXNativeTarget "SwitchColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB01BD5A1A2EEDFD00B70C00 /* Debug */,
+				CB01BD5B1A2EEDFD00B70C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB01BD5C1A2EEDFD00B70C00 /* Build configuration list for PBXNativeTarget "SwitchColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB01BD5D1A2EEDFD00B70C00 /* Debug */,
+				CB01BD5E1A2EEDFD00B70C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB01BD1F1A2EEDFD00B70C00 /* Project object */;
+}
